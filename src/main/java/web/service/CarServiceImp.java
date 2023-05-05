@@ -1,12 +1,12 @@
 package web.service;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import web.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+@Service
 public class CarServiceImp implements CarService {
     Car car1 = new Car("Cherry", 3, "white");
     Car car2 = new Car("Gelly", 2, "black");
